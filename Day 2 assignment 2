@@ -1,0 +1,26 @@
+import java.util.ArrayList;
+
+public class CheckEmpty {
+    public static void main(String[] args) {
+        ArrayList<String> list = new ArrayList<>();
+
+        
+        list.add("Hello");
+        list.add("World");
+
+        
+        if (list.isEmpty()) {
+            System.out.println("The list is empty");
+        } else {
+            System.out.println("The list is not empty");
+        }
+    }
+}
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
